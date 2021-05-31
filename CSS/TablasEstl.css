@@ -1,0 +1,130 @@
+*{
+	font-family: verdana;
+	font-size: 17px;
+}
+body{
+	background:url(../Imagenes/Fondo_6.jpg);
+}
+
+table {
+	border: 1px solid #ccc;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+table tr {
+	border: 1px solid #ddd;
+	padding: 5px;
+}
+
+table tr:nth-child(even) {
+	background-color: #666;
+	color: white;
+}
+
+table td, table th {
+	padding: 10px;
+	text-align: center;
+}
+
+table th {
+	text-transform: uppercase;
+	font-family: 18px;
+	letter-spacing: 1px;
+}
+.ImgVist{
+	position: relative;
+	left: 0%;
+	width: 100%;
+}
+/*//////////////////////////////////////////////*/
+
+@media screen and (max-width: 800px) {
+	table {
+		border:0;
+	}
+
+	table tr {
+		margin-bottom: 10px;
+		display: block;
+		border-bottom: 2px solid #ddd;
+
+	}
+
+	table td {
+		display: block;
+		text-align: right;
+		font-size: 16px;
+		border-bottom: 1px dotted #ccc;
+	}
+
+	table td:last-child {
+		border-bottom: 0;
+	}
+
+	table td:before {
+		content: attr(data-label);
+		float: left;
+		text-transform: uppercase;
+		font-weight: 600;
+	}
+
+	table thead {
+		display: none;
+	}
+}
+
+
+.h1{
+    color:yellow;
+}
+.h{
+    color:yellow;
+}
+.video{
+    width: 100%; 
+}
+
+video{
+    width: 100%;
+}
+.contenedor {
+    width: 100%;
+    margin: 0 auto;
+}
+.caja{
+    width: 100%;
+}
+
+@media only screen and (min-width:720px){
+    .contenedor{
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .video{
+    width: 100%; 
+    margin:0 auto;
+}
+
+    video {
+        width: 100%;
+    }
+}
+
+th{color:yellow;
+}
+
+td{
+	color: yellow;
+}
+
+h1{
+	color: yellow;
+}
+h1{
+	color: yellow;
+}

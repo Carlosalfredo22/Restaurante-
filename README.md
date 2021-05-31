@@ -1,2 +1,2 @@
 # Restaurante-Queretaros
-Pagina web de un restaurante en san salvador, Hecho Con HTML,CSS,JS
+Pagina web De Un restaurante En San Salvador, Hecho Bootstrap HTML,CSS,JS...
